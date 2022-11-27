@@ -1,12 +1,12 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 
+import Home from "./paginas/home/Home"
 import "./App.css";
 
 function App() {
   return (
     <>
-      <div>hola pezuña</div>
+      <div>{<Home />}</div>
     </>
   );
 }

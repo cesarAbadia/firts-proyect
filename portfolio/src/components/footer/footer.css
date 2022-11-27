@@ -1,0 +1,26 @@
+
+.profile-picture{
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 1px 0 0 var(--white);
+  border-radius: 50%;
+  height: 400px;
+  width: 400px ;
+ 
+ 
+}
+.profile-picture-background{
+  height: 100%;
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/seuz/image/upload/v1669577724/samples/Foto_TP_Cesar_Abadia_zjgqdr.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profile-picture-background:hover { 
+  transform: scale(1.07);
+  transition: 1s ease-out ;
+  border:solid azure 5px;
+}
